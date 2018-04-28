@@ -82,7 +82,7 @@ So when I need to warp any image I created function `warp` which uses still same
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
 I created function `getLines` where there is series of actions to get final polynomial.
-* get histogram of image to identify psition of lane line. We have binary image so the task is quite easy
+* get histogram of image to identify position of lane line. We have binary image so the task is quite easy
 * find center of image, get left and right part, find highest value of pixel for each side
 * that's the starting point to draw rectangle
 * rectangle works as area where we are looking for all white pixels
